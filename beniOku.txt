@@ -1,0 +1,24 @@
+
+# Programin calistirilmasi
+ Program exe dosyasina tiklanilarak veya consol uzerinden calistirilir.
+Programin compress islemi yapabilmesi icin metin.txt in exe dosyasiyla ayni diznin altinda olmasi gerekmektedir.
+Aksi halde program hata vermektedir.Program kullanicidan  herhangi bir input almamaktadir.
+ 
+# Projede kullanilan kutuphaneler
+ <stdio.h> // giris cikis islemleri ici 
+ <stdlib.h> 
+ <string.h> // string ile ilgili islemler icin
+ <stdint.h> // uint8_t ve uint16_t tipteki degiskenleri dahil ettik 
+
+# Projede kullanilan teknolojiler
+ Program C dili ile yazilmistir.Consol ekrani uzerinden calismaktadir.Grafik ile alakali bir kutuphane kullanilmamistir.
+
+# Programla ilgili notlar
+	LZ77 algoritmasinda testler sirasinda bir hata ile karşılaşılmamıştır.
+	Deflate algoritmasi calistirilirken bazen hata uretebilmektedir.Deflate algoritması bir hayli 	yavas calismaktadir.
+	Bu yavaslik search bufferin cok buyuk olmasindan kaynaklanmistir.Programda algoritmanın 	tamalanma yuzdesi ve compress orani yazdirilmaktadir.
+# Projeyi Gelistirenler
+ Berkay Efe Özcan --> ogrenci no :180201080
+
+
+
